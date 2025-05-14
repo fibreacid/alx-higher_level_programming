@@ -1,8 +1,12 @@
 #!/usr/bin/python3
+#0_add.py
+#Fibreacid
 
-__import__("0-add")
 
+if __name__ == "__main__":
+    ""print the sum 1 and 2""
+    from add_0 import add
 
-a = 1
-b = 2
-print(f"{a} + {b} = {a + b}")
+    a = 1
+    b = 2
+    print("{} + {} = {}".format(a,b, add(a, b)))
